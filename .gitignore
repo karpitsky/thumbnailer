@@ -1,0 +1,33 @@
+syntax: glob
+
+*.py[cod]
+*.pyc
+*.bak
+*.so
+*.db
+*.mo
+*.pid
+*.log
+.*.swp
+*.*~
+*.json
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+
+# Installer logs / Unit test / coverage reports
+pip-log.txt
+.coverage
+.tox
+nosetests.xml

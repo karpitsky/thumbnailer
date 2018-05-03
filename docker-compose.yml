@@ -1,0 +1,6 @@
+thumbnailer:
+  restart: always
+  build: .
+  ports:
+    - 5000:5000
+  command: /usr/local/bin/gunicorn -w 30 -b :5000 app:app
